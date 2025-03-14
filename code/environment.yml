@@ -16,3 +16,8 @@ dependencies:
   - scikit-image
   - seaborn
   - galapy-fit
+  - emcee
+  - dynesty
+  - setuptools
+  - requests
+  - pytest
