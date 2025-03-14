@@ -1,0 +1,18 @@
+name: labastro
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - matplotlib
+  - pandas
+  - astropy
+  - astroquery
+  - scipy
+  - numpy
+  - scikit-learn
+  - scikit-image
+  - seaborn
+  - galapy-fit
