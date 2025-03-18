@@ -21,3 +21,5 @@ dependencies:
   - setuptools
   - requests
   - pytest
+  - nway
+  - healpy 
