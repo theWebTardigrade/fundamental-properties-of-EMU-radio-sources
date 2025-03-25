@@ -1,4 +1,3 @@
-
 ##################################################
 # Parameters for building the observation to fit #
 ##################################################
@@ -14,22 +13,22 @@
 # - uplims: sequence of booleans identifying whether the values listed 
 #           in argument ``fluxes`` should be considered non-detection (``True``)
 #           or a detection (``False``)
-bands  = None
-fluxes = None
-errors = None
+bands  = ['G23_flux_FUVt', 'G23_flux_NUVt', 'G23_flux_ut', 'G23_flux_gt', 'G23_flux_rt', 'G23_flux_it', 'G23_flux_Zt', 'G23_flux_Yt', 'G23_flux_Jt', 'G23_flux_Ht', 'G23_flux_Kt', 'G23_flux_W1t', 'G23_flux_W2t']
+fluxes = [0.0024289025459438562, 0.0018849516054615378, 0.004777566064149141, 0.024537721648812294, 0.08633957803249359, 0.14078283309936523, 0.1902095228433609, 0.2357759177684784, 0.28728294372558594, 0.41839200258255005, 0.3907151222229004, 0.2375180572271347, 0.16212648153305054]
+errors = [3.4695849535637535e-06, 9.230444993590936e-05, 0.0010282449657097459, 0.0004329487564973533, 0.0005571075598709285, 0.0032374945003539324, 0.0013154704356566072, 0.0024346932768821716, 0.005118537228554487, 0.01021844893693924, 0.009973199106752872, 0.0009685620898380876, 0.0018846584716811776]
 uplims = None
 
 # The photometric filters system used in the observation.
 # This parameter should be an iterable containing names
 # of filters already present in the database, e.g.
 #
-# filters = ['GOODS.b', 'GOODS.i', 'GOODS.v', 'GOODS.z']
+filters = ['GALEX.FUV', 'GALEX.NUV', 'SDSS.u', 'SDSS.g', 'SDSS.r', 'SDSS.i', 'SDSS.z', 'UKIDSS.Y', 'UKIDSS.J', 'UKIDSS.H', 'UKIDSS.K', 'WISE.W1', 'WISE.W2']
 #
 # NOTE that, if the bands listed in variable ``bands`` 
 # are all present in the database and have the same names
 # of the filters listed with ``galapy.PhotometricSystem.print_filters()``,
 # this variable can be set as ``filters = bands``
-filters = list(bands)
+# filters = list(bands)
 
 # Eventual custom photometric filters. 
 # This parameter should be a nested dictionary with user-defined transmissions.
