@@ -26,3 +26,6 @@ dependencies:
   - skymapper
   - bs4
   - shapely
+  - pyshp
+  - pyproj
+  - cartopy
