@@ -159,7 +159,7 @@ galaxy_parameters = {
     ##########
 
     'age'      : ( [6., 11.], True ),
-    'redshift' : ( [0., 10.], False ),
+    'redshift' : 0.39891824,
 
     ##########################
     # Star Formation History #
@@ -292,7 +292,7 @@ output_directory = ''
 
 # An identification name, it will be pre-pended to all files stored in the output directory
 # (if the string is empty the current date+time will be used)
-run_id = ''
+run_id = '344680520004824'
 
 # The method used for storing results. 
 # Possible choices are:
@@ -315,7 +315,7 @@ store_method = 'hdf5'
 # is computed (instantiated) when loading the file (so this will take up to some minutes).
 # With lightweight storage off, all the quantities are computed at the end of the sampling
 # run and are ready to use but the output file can reach a size of up to some GiB. 
-store_lightweight = False
+store_lightweight = True
 
 # Whether to pickle the sampler raw results.
 # (might be useful for analyzing run statistics)
