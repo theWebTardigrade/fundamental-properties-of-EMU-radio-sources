@@ -1,0 +1,1 @@
+This is the repository for the project "Fundamental Properties of EMU radio sources" developed during the course Astrohysics Laboratoring of the Bachelors degree in Physics - in Astronomy as Astrophysics
