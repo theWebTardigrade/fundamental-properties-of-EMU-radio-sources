@@ -12,20 +12,11 @@ dependencies:
   - astroquery
   - scipy
   - numpy
-  - scikit-learn
-  - scikit-image
   - seaborn
-  - galapy-fit
-  - emcee
-  - dynesty
-  - setuptools
-  - requests
-  - pytest
-  - nway
-  - healpy 
-  - skymapper
+  - missingno
+  - sklearn
+  - os
+  - shutil
+  - collections
+  - json
   - bs4
-  - shapely
-  - pyshp
-  - pyproj
-  - minisom
